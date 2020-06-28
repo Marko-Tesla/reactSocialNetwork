@@ -14,8 +14,46 @@
 
 .messages {
    padding: 10px;
+   display: flex;
+   flex-direction: column;
 }
 
-.messages .message {
-   color:white;
+.messagesYou,
+.messagesOther {
+   padding: 7px;
+   border-radius: 5px;
+   margin-top: 5px;
+   font-size: 20px;
+}
+
+.messagesYou{
+   display: flex;
+   align-items: center;
+}
+.messagesOther{
+   display: flex;
+   text-align: right;
+   justify-content: right;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.messagesYou span{
+   padding: 5px;
+   border-radius: 5px;
+   background-color: white;
+   margin-left: 7px;
+}
+.messagesOther span{
+   padding: 5px;
+   border-radius: 5px;
+   background-color: white;
+   margin-right: 7px;
+}
+
+.messagesYou img,
+.messagesOther img{
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
 }
