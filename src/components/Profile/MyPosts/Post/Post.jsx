@@ -6,7 +6,7 @@ const Post = (props) => {
    return (
       <div className={s.item}>
          <div className={s.post}>
-            <img className={s.author} src='https://html.crumina.net/html-olympus/img/author-main1.jpg'></img>
+            <img className={s.author} src='https://html.crumina.net/html-olympus/img/author-main1.jpg' alt='avatar'></img>
             <div className={s.propsMessage}>
                { props.message }
             </div>

@@ -1,18 +1,14 @@
 import React from 'react';
-import s from './Profile.module.css'
 import MyPosts from './MyPosts/MyPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
-import Post from './MyPosts/Post/Post';
-
 
 const Profile = (props) => {
-
   return (
     <div>
       <ProfileInfo />
       <MyPosts 
-      posts={props.profilePage.posts} 
-      addPost={props.addPost}
+      posts={props.profileReducer.posts} 
+      /*addPost={props.profileReducer(ADD_POST)}*/
       dispatch={props.dispatch} />
     </div>
   )
