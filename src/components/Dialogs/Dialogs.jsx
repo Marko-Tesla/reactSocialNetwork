@@ -3,27 +3,28 @@ import s from './Dialogs.module.css';
 import DialogItem from './DialogItem/DialogsItem';
 import MessageYou from './Message/MessageYou';
 import MessageOther from './Message/MessageOther';
-import { sendMessageCreator, updateNewMessageBodyCreator } from '../../redux/dialogsReducer';
 
 const Dialogs = (props) => {
-   let newMessageBody = props.dialogsReducer.newMessageBody;
+  
+   let state = props.dialogsPage;
+   let newMessageBody = state.newMessageBody;
+   let dialogsElements = state.dialogs.map( dialog =><DialogItem name={dialog.name} id={dialog.id} key={dialog.id}/>);
+   let messagesElements = state.messages.map(m => {
+      if (m.author=== 'you') {
+         return <MessageYou message ={m.message} key={m.id}/>
+      } else {
+         return <MessageOther message ={m.message} key={m.id}/>
+      };
+   });
+
    let onSendMessageClick = () => {
-      props.dispatch(sendMessageCreator());
+      props.sendMessage();
    };
 
    let onNewMessageChange = (e) => {
       let body = e.target.value;
-      props.dispatch(updateNewMessageBodyCreator(body));
+      props.updateNewMessageBody(body);
    };
-
-   let dialogsElements = props.dialogsReducer.dialogs.map( dialog =><DialogItem name={dialog.name} id={dialog.id} />);
-   let messagesElements = props.dialogsReducer.messages.map(m => {
-      if (m.author=== 'you') {
-         return <MessageYou message ={m.message} />
-      } else {
-         return <MessageOther message ={m.message} />
-      };
-   });
 
    return (
       <div className={s.dialogs}>
