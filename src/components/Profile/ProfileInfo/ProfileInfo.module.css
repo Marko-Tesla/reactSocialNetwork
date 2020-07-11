@@ -6,4 +6,55 @@
 
 .descriptionBlock {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.profileName {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.profileStatus{
+    font-size: 15px;
+}
+
+.contactsMain {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contactsString {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: #9a9fbf;
+    
+}
+
+.contactsString:hover {
+    font-weight: 600;
+}
+
+.contactsString span {
+    margin-left: 7px;
+}
+
+.jobSection {
+    display: flex;
+    flex-direction: column;
 }
