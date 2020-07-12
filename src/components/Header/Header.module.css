@@ -3,43 +3,28 @@
 }
 
 .header {
-    grid-area: h;
-    height: 70px;
-    background-color: #3f4257;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 21;
-  }
+  grid-area: h;
+  height: 70px;
+  background-color: #3f4257;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 21;
+}
 
-  .header img{
-    width: 50px;
-  }
+.header img{
+  width: 50px;
+}
   
-  /*
-height: 100%;
+.loginBlock {
+  float: right;
+  
 }
 
-user agent stylesheet
-div {
-    display: block;
+.loginBlock a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
 }
-body {
-    
-}
-body, caption {
-    text-align: left;
-}
-
---blue: #ff5e3a;
-    --primary: #ff5e3a;
-    --success: #08ddc1;
-    --danger: #f92552;
-    --secondary: #9a9fbf;
-
-    --font-family-sans-serif: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-}
-*/
 
