@@ -21,3 +21,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 App is ready to be deployed!
+
+### API
+To test API commands login with:
+
+Email: free@samuraijs.com
+Password: free
+
+at https://social-network.samuraijs.com
