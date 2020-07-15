@@ -17,9 +17,6 @@ const ProfileInfo = (props) => {
   }
   return (
   <div className={s.content}>
-    <div>
-      <img className={s.ProfileBG} src="https://html.crumina.net/html-olympus/img/top-header1.jpg" alt='header-bg'></img>
-    </div>   
     <div className={s.descriptionBlock}>
       <div >
         <img src={props.profile.photos.large !=null ? props.profile.photos.large: UserPhoto} alt='largePhoto' width='300' height='300'/>
@@ -35,11 +32,11 @@ const ProfileInfo = (props) => {
       </div>
       <div className={s.contacts}>
         <span className={s.contactsMain}>Контакты</span>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.facebook}`}><img width='30' src={facebookIcon} alt='facebookIcon'/><span>Мой Facebook</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.website}`}><img width='30' src={websiteIcon} alt='websiteIcon'/><span>Мой сайт</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.vk}`}><img width='30' src={vkIcon} alt='vkIcon'/><span>Мой VK</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.twitter}`}><img width='30' src={twitterIcon} alt='twitterIcon'/><span>Мой Twitter</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.instagram}`}><img width='30' src={instagramIcon} alt='instagramIcon'/><span>Мой Instagram</span></a>
+        <a className={s.contactsString} href={`https://${props.profile.contacts.facebook}`} ><img width='30' src={facebookIcon} alt='facebookIcon'/><span>Мой Facebook</span></a>
+        <a className={s.contactsString} href={`https://${props.profile.contacts.website}`} ><img width='30' src={websiteIcon} alt='websiteIcon'/><span>Мой сайт</span></a>
+        <a className={s.contactsString} href={`https://${props.profile.contacts.vk}`}><img width='30' src={vkIcon} alt='vkIcon'/><span>Мой VK</span></a>
+        <a className={s.contactsString} href={`https://${props.profile.contacts.twitter}`}><img width='30' src={twitterIcon} alt='twitterIcon'/><span>Мой Twitter</span></a>
+        <a className={s.contactsString} href={`https://${props.profile.contacts.instagram}`}><img width='30' src={instagramIcon} alt='instagramIcon'/><span>Мой Instagram</span></a>
       </div>
     </div>
   </div> );

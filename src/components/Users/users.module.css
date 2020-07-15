@@ -3,6 +3,11 @@
    height: 100px;
 }
 
+.currentPage{
+   margin-top: 10px;
+}
+
 .selectedPage {
    font-weight: bold;
+   margin-top: 10px;
 }

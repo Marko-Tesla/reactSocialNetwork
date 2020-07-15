@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   color: #888da8;
   background-color: #edf2f6;
+  padding-top: 10px;
 }
 
 .app-wrapper {
