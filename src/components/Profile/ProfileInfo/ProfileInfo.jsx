@@ -22,7 +22,7 @@ const ProfileInfo = (props) => {
     </div>   
     <div className={s.descriptionBlock}>
       <div >
-        <img src={props.profile.photos.large} />
+        <img src={props.profile.photos.large} alt='largePhoto'/>
         <div className={s.profileInfo}>
           <span className={s.profileName}>{props.profile.fullName}</span>
           <span className={s.profileStatus}>{props.profile.aboutMe}</span>
@@ -35,11 +35,11 @@ const ProfileInfo = (props) => {
       </div>
       <div className={s.contacts}>
         <span className={s.contactsMain}>Контакты</span>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.facebook}`}><img width='30' src={facebookIcon}/><span>Мой Facebook</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.website}`}><img width='30' src={websiteIcon}/><span>Мой сайт</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.vk}`}><img width='30' src={vkIcon}/><span>Мой VK</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.twitter}`}><img width='30' src={twitterIcon}/><span>Мой Twitter</span></a>
-        <a className={s.contactsString} href={`www.${props.profile.contacts.instagram}`}><img width='30' src={instagramIcon}/><span>Мой Instagram</span></a>
+        <a className={s.contactsString} href={`www.${props.profile.contacts.facebook}`}><img width='30' src={facebookIcon} alt='facebookIcon'/><span>Мой Facebook</span></a>
+        <a className={s.contactsString} href={`www.${props.profile.contacts.website}`}><img width='30' src={websiteIcon} alt='websiteIcon'/><span>Мой сайт</span></a>
+        <a className={s.contactsString} href={`www.${props.profile.contacts.vk}`}><img width='30' src={vkIcon} alt='vkIcon'/><span>Мой VK</span></a>
+        <a className={s.contactsString} href={`www.${props.profile.contacts.twitter}`}><img width='30' src={twitterIcon} alt='twitterIcon'/><span>Мой Twitter</span></a>
+        <a className={s.contactsString} href={`www.${props.profile.contacts.instagram}`}><img width='30' src={instagramIcon} alt='instagramIcon'/><span>Мой Instagram</span></a>
       </div>
     </div>
   </div> );

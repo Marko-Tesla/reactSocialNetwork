@@ -4,7 +4,7 @@ import s from './Jobs.module.css'
 
 let LookingForAJobImg = (props) => {
    return <div className={s.main}>
-      <img src={lookingForAJob}/>
+      <img src={lookingForAJob} alt='lookingForAJob'/>
       <span>Я ищу работу</span>
    </div>
 }

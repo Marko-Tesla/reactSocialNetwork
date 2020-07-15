@@ -4,7 +4,7 @@ import s from './Jobs.module.css'
 
 let Check = (props) => {
    return <div className={s.main}>
-      <img src={check} />
+      <img src={check} alt='check'/>
       <span>Я не ищу работу</span>
    </div>
 }
