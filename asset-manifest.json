@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactSocialNetwork/static/css/main.d2805dc5.chunk.css",
+    "main.js": "/reactSocialNetwork/static/js/main.32a59402.chunk.js",
+    "main.js.map": "/reactSocialNetwork/static/js/main.32a59402.chunk.js.map",
+    "runtime-main.js": "/reactSocialNetwork/static/js/runtime-main.41064be5.js",
+    "runtime-main.js.map": "/reactSocialNetwork/static/js/runtime-main.41064be5.js.map",
+    "static/js/2.a5c821d2.chunk.js": "/reactSocialNetwork/static/js/2.a5c821d2.chunk.js",
+    "static/js/2.a5c821d2.chunk.js.map": "/reactSocialNetwork/static/js/2.a5c821d2.chunk.js.map",
+    "index.html": "/reactSocialNetwork/index.html",
+    "precache-manifest.883c2aa6d2f701bac2aec3c4b20e0fd6.js": "/reactSocialNetwork/precache-manifest.883c2aa6d2f701bac2aec3c4b20e0fd6.js",
+    "service-worker.js": "/reactSocialNetwork/service-worker.js",
+    "static/css/main.d2805dc5.chunk.css.map": "/reactSocialNetwork/static/css/main.d2805dc5.chunk.css.map",
+    "static/js/2.a5c821d2.chunk.js.LICENSE.txt": "/reactSocialNetwork/static/js/2.a5c821d2.chunk.js.LICENSE.txt",
+    "static/media/check.svg": "/reactSocialNetwork/static/media/check.28b67428.svg",
+    "static/media/facebook.svg": "/reactSocialNetwork/static/media/facebook.b9173756.svg",
+    "static/media/instagram.svg": "/reactSocialNetwork/static/media/instagram.662a4f14.svg",
+    "static/media/like.4d70e090.svg": "/reactSocialNetwork/static/media/like.4d70e090.svg",
+    "static/media/lookingForAJob.svg": "/reactSocialNetwork/static/media/lookingForAJob.e5ffcb8a.svg",
+    "static/media/preloader.svg": "/reactSocialNetwork/static/media/preloader.fe84a85b.svg",
+    "static/media/twitter.svg": "/reactSocialNetwork/static/media/twitter.be066898.svg",
+    "static/media/vk.svg": "/reactSocialNetwork/static/media/vk.171c8efe.svg",
+    "static/media/website.svg": "/reactSocialNetwork/static/media/website.41dbb5fc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41064be5.js",
+    "static/js/2.a5c821d2.chunk.js",
+    "static/css/main.d2805dc5.chunk.css",
+    "static/js/main.32a59402.chunk.js"
+  ]
+}
