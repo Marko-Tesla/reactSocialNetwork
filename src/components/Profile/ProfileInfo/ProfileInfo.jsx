@@ -8,7 +8,7 @@ import instagramIcon from '../../../assets/socMedia/instagram.svg'
 import twitterIcon from '../../../assets/socMedia/twitter.svg'
 import LookingForAJobImg from '../../common/Jobs/LookingForAJob'
 import Check from '../../common/Jobs/Check';
-
+import UserPhoto from '../../../assets/avatar-default.png'
 
 const ProfileInfo = (props) => {
   
@@ -22,7 +22,7 @@ const ProfileInfo = (props) => {
     </div>   
     <div className={s.descriptionBlock}>
       <div >
-        <img src={props.profile.photos.large} alt='largePhoto'/>
+        <img src={props.profile.photos.large !=null ? props.profile.photos.large: UserPhoto} alt='largePhoto' width='300' height='300'/>
         <div className={s.profileInfo}>
           <span className={s.profileName}>{props.profile.fullName}</span>
           <span className={s.profileStatus}>{props.profile.aboutMe}</span>
@@ -44,5 +44,4 @@ const ProfileInfo = (props) => {
     </div>
   </div> );
 }
-
 export default ProfileInfo;
