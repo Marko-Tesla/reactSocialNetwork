@@ -9,6 +9,7 @@ import twitterIcon from '../../../assets/socMedia/twitter.svg'
 import LookingForAJobImg from '../../common/Jobs/LookingForAJob'
 import Check from '../../common/Jobs/Check';
 import UserPhoto from '../../../assets/avatar-default.png'
+import ProfileStatus from './ProfileStatus';
 
 const ProfileInfo = (props) => {
   
@@ -23,7 +24,7 @@ const ProfileInfo = (props) => {
         <div className={s.profileInfo}>
           <span className={s.profileName}>{props.profile.fullName}</span>
           <span className={s.profileStatus}>{props.profile.aboutMe}</span>
-        
+          <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
         </div>
       </div>
       <div className={s.jobSection}>
