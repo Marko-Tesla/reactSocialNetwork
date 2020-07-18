@@ -7,8 +7,6 @@ To test API commands login with:
 Email: free@samuraijs.com
 Password: free
 
-at https://social-network.samuraijs.com
-
 ## Available Scripts
 
 In the project directory, you can run:
