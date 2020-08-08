@@ -1,8 +1,13 @@
-.currentPage{
-   margin-top: 10px;
+.paginator {
+   margin: 10px;
 }
 
-.selectedPage {
+.pageNumber {
+   padding: 2px;
+   border: 1px solid grey;
+}
+
+.pageNumber.selectedPage{
    font-weight: bold;
-   margin-top: 10px;
+   border-color: black;
 }
