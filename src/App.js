@@ -12,6 +12,9 @@ import { compose } from 'redux';
 import { initializeApp } from './redux/appReducer';
 import Preloader from './components/common/Preloader/Preloader';
 import store from './redux/redux-store';
+import News from './components/News/News';
+import Music from './components/Music/Music';
+import Settings from './components/Settings/Settings';
 
 
 
@@ -35,6 +38,10 @@ class App extends React.Component {
           <Route path='/profile/:userId?' render={ () => <ProfileContainer />} />
           <Route exact path='/' render={ () => <ProfileContainer />} />
           <Route path='/users' render={ () => <UsersContainer />} />
+          <Route path='/news' render={ () => <News />} />
+          <Route path='/music' render={ () => <Music />} />
+          <Route path='/settings' render={ () => <Settings />} />
+
           <Route path='/login' render={ () => <Login />} />
 
         </div>

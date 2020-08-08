@@ -26,8 +26,8 @@ let User = ({user, followingInProgress, unfollow, follow}) => {
             <div>{user.status}</div>
          </span>
          <span>
-            <div>{"user.location.country"}</div>
-            <div>{"user.location.city"}</div>
+            <div>{/*"user.location.country"*/`Location: -`}</div>
+            <div>{/*"user.location.city"*/null}</div>
          </span>
       </span>
    </div>)
