@@ -9,7 +9,6 @@ import twitterIcon from '../../../assets/socMedia/twitter.svg'
 import LookingForAJobImg from '../../common/Jobs/LookingForAJob'
 import Check from '../../common/Jobs/Check';
 import UserPhoto from '../../../assets/avatar-default.png'
-import ProfileStatus from './ProfileStatus';
 import ProfileStatusWithHooks from './ProfileStatusWithHooks';
 
 const ProfileInfo = (props) => {
