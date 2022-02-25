@@ -52,7 +52,7 @@ const MessageForm = (props) => {
                value={props.newMessageBody}
                />
             <div>
-               <button>Send messageasdf</button>
+               <button>Send message</button>
             </div>
          </div>
       </form>
