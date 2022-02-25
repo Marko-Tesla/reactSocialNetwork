@@ -44,7 +44,7 @@ const MessageForm = (props) => {
    return (
       <form onSubmit={props.handleSubmit}>
          <div>
-            <Field 
+            <Field
                validate={[required, maxLength100]}
                name={'newMessageBody'}
                component={Textarea}
@@ -52,7 +52,7 @@ const MessageForm = (props) => {
                value={props.newMessageBody}
                />
             <div>
-               <button>Send message</button>
+               <button>Send messageasdf</button>
             </div>
          </div>
       </form>
